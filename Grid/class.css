@@ -1,0 +1,11 @@
+.product-grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.item{
+  background-color:#D9D28B;
+  padding: 10px;
+  border-radius: 12px;
+}
